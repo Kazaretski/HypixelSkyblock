@@ -1,0 +1,45 @@
+[
+    {
+        "floorID": "Floor-1",
+        "officialName": "The Catacombs - Floor I",
+        "dungeonSize": "Small",
+        "levelRequirement": 1,
+        "bosses": ["Bonzo"]
+    },{
+        "floorID": "Floor-2",
+        "officialName": "The Catacombs - Floor II",
+        "dungeonSize": "Small",
+        "levelRequirement": 3,
+        "bosses": ["Scarf"]
+    },{
+        "floorID": "Floor-3",
+        "officialName": "The Catacombs - Floor III",
+        "dungeonSize": "Small",
+        "levelRequirement": 5,
+        "bosses": ["The Professor"]
+    },{
+        "floorID": "Floor-4",
+        "officialName": "The Catacombs - Floor IV",
+        "dungeonSize": "Medium",
+        "levelRequirement": 9,
+        "bosses": ["Thorn"]
+    },{
+        "floorID": "Floor-5",
+        "officialName": "The Catacombs - Floor V",
+        "dungeonSize": "Medium",
+        "levelRequirement": 14,
+        "bosses": ["Boomers", "Stormy", "Healthy", "Golden", "Stealthy", "Speedy"]
+    },{
+        "floorID": "Floor-6",
+        "officialName": "The Catacombs - Floor VI",
+        "dungeonSize": "Medium",
+        "levelRequirement": 19,
+        "bosses": ["Boomers", "Stormy", "Healthy", "Golden", "Stealthy", "Speedy", "Sadan"]
+    },{
+        "floorID": "Floor-7",
+        "officialName": "The Catacombs - Floor VII",
+        "dungeonSize": "Large",
+        "levelRequirement": 24,
+        "bosses": ["Maxor", "Storm", "Goldor", "Necron", "Wither King"]
+    }
+]
