@@ -5,7 +5,7 @@ let userInput: number = 0;
 let selectionID: string;
 async function fetchItems() {
     try {
-        const response = await fetch("./skyblock-items.json");
+        const response = await fetch("https://raw.githubusercontent.com/Kazaretski/HypixelSkyblock/main/skyblock-items.json");
         if (!response.ok) throw new Error(String(response.status));
         const allItems: any = await response.json();
         main(allItems);
