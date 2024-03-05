@@ -255,13 +255,57 @@
         "releaseDate": "2020-07-17",
         "imageLink": "https://raw.githubusercontent.com/Kazaretski/HypixelSkyblock/main/images/bone--enchanted.gif",
         "rarity": "LEGENDARY",
-        "abilities": ["Spirit Bomb"],
+        "abilities": ["Swing"],
         "requirements": {
             "floorID": "Floor-4",
             "officialName": "The Catacombs - Floor IV",
             "dungeonSize": "Medium",
             "levelRequirement": 9,
             "bosses": ["Thorn"]
+        }
+    },{
+        "internalID": "SUPER_UNDEAD_BOW",
+        "name": "Super Undead Bow",
+        "summary": "The Super Undead Bow is an Epic Dungeon Bow.",
+        "sellPrice": 1000,
+        "sellable": true,
+        "tradable": true,
+        "auctionable": true,
+        "reforgeable": true,
+        "enchantable": true,
+        "canAddToMuseum": false,
+        "releaseDate": "2020-07-07",
+        "imageLink": "https://raw.githubusercontent.com/Kazaretski/HypixelSkyblock/main/images/bow.png",
+        "rarity": "EPIC",
+        "abilities": ["Spirit Bomb"],
+        "requirements": {
+            "floorID": "Floor-3",
+            "officialName": "The Catacombs - Floor III",
+            "dungeonSize": "Small",
+            "levelRequirement": 5,
+            "bosses": ["The Professor"]
+        }
+    },{
+        "internalID": "DEATH_BOW",
+        "name": "Death Bow",
+        "summary": "The Death Bow is an Epic Dungeon Bow.",
+        "sellPrice": 1000,
+        "sellable": true,
+        "tradable": true,
+        "auctionable": true,
+        "reforgeable": true,
+        "enchantable": true,
+        "canAddToMuseum": true,
+        "releaseDate": "2020-10-01",
+        "imageLink": "https://raw.githubusercontent.com/Kazaretski/HypixelSkyblock/main/images/bow.png",
+        "rarity": "EPIC",
+        "abilities": ["Spirit Bomb"],
+        "requirements": {
+            "floorID": "Floor-3",
+            "officialName": "The Catacombs - Floor III",
+            "dungeonSize": "Small",
+            "levelRequirement": 5,
+            "bosses": ["The Professor"]
         }
     }
 ]
