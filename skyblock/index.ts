@@ -7,7 +7,7 @@ async function fetchItems() {
     try {
         const response = await fetch("https://raw.githubusercontent.com/Kazaretski/HypixelSkyblock/main/skyblock-items.json");
         if (!response.ok) throw new Error(String(response.status));
-        const allItems: any = await response.json();
+        const allItems: SkyblockItem[] = await response.json();
         main(allItems);
     } catch (error: any) {
         console.log(`/!\\ ERROR: ${error} /!\\`);
@@ -25,9 +25,13 @@ function showItemById(items:SkyblockItem[]) {
     console.log("----------------------------------");
     for (let i = 0; i < items.length; i++) {
         if (items[i].internalID == selectionID) {
+            // Basic info
             console.log(`Name:\t\t\t${items[i].name}\nSummary:\t\t${items[i].summary}\nSell Price:\t\t${items[i].sellPrice}`);
+            // Booleans
             console.log(`Sellable?\t\t${items[i].sellable}\nTradable?\t\t${items[i].tradable}\nAuctionable?\t\t${items[i].auctionable}\nReforgeable?\t\t${items[i].reforgeable}\nEnchantable?\t\t${items[i].enchantable}\nCan add to museum?\t${items[i].canAddToMuseum}`);
+            // Misc info
             console.log(`Release date:\t\t${items[i].releaseDate}\nImage link:\t\t${items[i].imageLink}\nRarity:\t\t\t${items[i].rarity}\nAbilities:\t\t${items[i].abilities}`);
+            // Object
             console.log(`Requirements:\n\tFloor Name:\t\t${items[i].requirements.officialName}\n\tDungeon Size:\t\t${items[i].requirements.dungeonSize}\n\tLevel Requirement:\t${items[i].requirements.levelRequirement}\n\tBosses:\t\t\t${items[i].requirements.bosses}`);
         }
     }
